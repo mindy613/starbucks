@@ -1007,4 +1007,43 @@ calc(Apx * B + Cpx);  이런식으로 사용 하면 A*B+Cpx
 
 유튜브api 쓰는법
 - 구글에 youtube iframe api 검색
+
+git 사용법
+open terminal 터미널을 열어야됨
+
+1. 개행문자
+git config --global core.autocrlf true
+
+2. 사용자 정보
+커밋 생성을 위한 정보등록
+git config --global user.name '이름'
+git config --global user.email '이메일주소'
+
+3.구성 확인
+1,2가 잘 나오는지 확인
+git config --global --list
+
+4. git init ->버전관리를 시작하겠다
+
+5. git add . ->모든 파일을 변경사항을 추적하도록 지정
+
+6. git commit -m '프로젝트 생성'
+메세지와 함께 버전을 생성
+
+** 파일이 추가되거나 수정사항이 생기면 5,6번을 하면됨
+
+7.github 원격으로 업로드
+1) 깃허브 메인화면 ->상단 우측 사용자 아이콘 클릭 -> your repositories 클릭
+-> new 생성 ->name 설명 하고 create 누름 -> 레퍼지토리 주소 복사
+
+2) git remote add origin https://주소
+origin이란 별칭으로 원격저장소를 연결 
+
+3) git push origin master
+origin 이란 별칭의 원격 저장소로 버전 내역 전송
+
+4) git push -> 깃허브로 업로드
+
+8. netify 
+가입해서 깃허브랑 연결
 */
